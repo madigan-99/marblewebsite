@@ -5,7 +5,7 @@ html {
 }
 
 .container {
-  color: #fff;
+  color: #f8f7f2;
   align-items: center;
   display: flex;
   flex-direction: row;
@@ -15,7 +15,7 @@ html {
 
 .left-content {
   padding: 2rem;
-  border-right: 2px solid whitesmoke;
+  border-right: 2px solid #f8f7f2;
 }
 
 .right-content {
