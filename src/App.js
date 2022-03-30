@@ -55,7 +55,7 @@ function Main() {
 
 function Presale() {
   return (
-    <>
+    <div className="google-form">
       <Link to="/" className="nav-back">
         &#x2190;
       </Link>
@@ -68,7 +68,7 @@ function Presale() {
       >
         Loading…
       </iframe>
-    </>
+    </div>
   );
 }
 

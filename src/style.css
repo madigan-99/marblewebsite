@@ -5,6 +5,8 @@ html {
 
 body {
   font-family: "Alice";
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .container {
@@ -31,7 +33,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  height: 40vh;
+  /* height: 20vh; */
   padding: 2rem;
   font-family: "Alice";
   line-height: 0em;
@@ -46,9 +48,16 @@ a:hover {
   opacity: 0.7;
 }
 
+.google-form {
+  width: 100%;
+}
 .order {
-  width: 100vw;
+  width: 99.5vw;
   height: 100vh;
+  overflow-y: hidden;
+  scroll-behavior: inherit;
+  scroll-snap-type: none;
+  scroll-margin: 10px;
 }
 
 .nav-back {
@@ -57,7 +66,7 @@ a:hover {
   font-size: 1.75rem;
   font-family: "Alice";
   float: left;
-  position: fixed;
+  position: absolute;
   margin: 2rem;
   font-weight: 800;
 }
