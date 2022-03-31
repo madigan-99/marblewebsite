@@ -11,9 +11,11 @@ const usePageTracking = () => {
   useEffect(() => {
     ReactGA.initialize(TRACKING_ID);
     setInitialized(true);
+    console.log(initialized);
   }, []);
 
   useEffect(() => {
+    console.log(initialized);
     if (initialized) {
       console.log("sent pageview", location.pathname + location.search);
       ReactGA.pageview(location.pathname + location.search);
