@@ -5,6 +5,8 @@ import "./style.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Link } from "react-router-dom";
 import usePageTracking from "./googleanalytics";
+import { Header } from "./header.js";
+
 function App() {
   usePageTracking();
   return (
@@ -20,6 +22,7 @@ function App() {
 function Main() {
   return (
     <>
+      <Header />
       <div className="container">
         <div className="left-content">
           <h1>marble.</h1>
