@@ -12,6 +12,7 @@ function App() {
       <Routes>
         <Route path="/" index element={<Main />} />
         <Route path="/presale" element={<Presale />} />
+        <Route path="*" element={<Main />} />
       </Routes>
     </div>
   );
