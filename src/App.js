@@ -44,10 +44,7 @@ function Main() {
       </div>
       <div className="full-width">
         <Link to="/presale">
-          <h3>
-            {" "}
-            order for the week of 04/04 <em>today</em>
-          </h3>
+          <h3> order for the week of 04/04</h3>
         </Link>
       </div>
     </>
