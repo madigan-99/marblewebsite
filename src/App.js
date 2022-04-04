@@ -26,9 +26,9 @@ function Main() {
           <h1>marble.</h1>
 
           <em>
-            <a href="https://goo.gl/maps/KFTEWJacVcTw9mg17" target="new">
-              <h3>UW Quad 04/02</h3>
-            </a>
+            {/* <a href="https://goo.gl/maps/KFTEWJacVcTw9mg17" target="new"> */}
+            <h3></h3>
+            {/* </a> */}
           </em>
         </div>
         <div className="right-content">
@@ -46,7 +46,7 @@ function Main() {
         <Link to="/presale">
           <h3>
             {" "}
-            reserve your order <em>today</em>
+            order for the week of 04/04 <em>today</em>
           </h3>
         </Link>
       </div>
@@ -62,7 +62,7 @@ function Presale() {
       </Link>
       <iframe
         className="order"
-        src="https://docs.google.com/forms/d/e/1FAIpQLSeRsmb_nekWdlgX1lngYhXIfoqmQZeQHUDcR79z9500oUQqmA/viewform?embedded=true"
+        src="https://docs.google.com/forms/d/e/1FAIpQLSfauvMgGLDfaNw-e-g8tdidce1ag88NbxWwoCevRD88Nbknzw/viewform?embedded=true"
         frameBorder="0"
         marginHeight="10"
         marginWidth="10"
