@@ -4,9 +4,7 @@ import "./style.css";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Link } from "react-router-dom";
-import usePageTracking from "./googleanalytics";
 function App() {
-  usePageTracking();
   return (
     <div className="App">
       <Routes>
