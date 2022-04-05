@@ -41,7 +41,7 @@ function Main() {
             <a href="mailto:info@marblechocolates.com">email.</a>
           </h3>
           <h3>
-            <a href="https://feedback.marablechocolates.com" target="new">
+            <a href="https://feedback.marblechocolates.com" target="new">
               leave a review.
             </a>
           </h3>
