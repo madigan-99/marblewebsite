@@ -32,13 +32,18 @@ function Main() {
           </em>
         </div>
         <div className="right-content">
-          <h2>
+          <h3>
             <a href="https://www.instagram.com/marble.chocolates" target="new">
               instagram.
             </a>
-          </h2>
+          </h3>
           <h3>
             <a href="mailto:info@marblechocolates.com">email.</a>
+          </h3>
+          <h3>
+            <a href="https://feedback.marablechocolates.com" target="new">
+              leave a review.
+            </a>
           </h3>
         </div>
       </div>
