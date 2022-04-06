@@ -18,19 +18,19 @@ function App() {
         <Route
           path="/feedback"
           element={
-            <Presale url="https://docs.google.com/forms/d/e/1FAIpQLSfWG0egJaNv0Z1MH7O7tkKkkn0AZ0OcoYD4vU83tBmEJGyTpQ/viewform??embedded=true" />
+            <Presale url="https://docs.google.com/forms/d/e/1FAIpQLSfWG0egJaNv0Z1MH7O7tkKkkn0AZ0OcoYD4vU83tBmEJGyTpQ/viewform?embedded=true" />
           }
         />
         <Route
           path="/makenna"
           element={
-            <Presale url="https://docs.google.com/forms/d/e/1FAIpQLSess1NkuQJV05UXVGhiSw3fFhib55t4EPqeJK21uTpx9tvdow/viewform??embedded=true" />
+            <Presale url="https://docs.google.com/forms/d/e/1FAIpQLSess1NkuQJV05UXVGhiSw3fFhib55t4EPqeJK21uTpx9tvdow/viewform?embedded=true" />
           }
         />
         <Route
           path="/monmon-eats"
           element={
-            <Presale url="https://docs.google.com/forms/d/e/1FAIpQLScFUQr-7t-rXS-8yk6oMD85iivtjxh9ku16_YTIWEtro6KbjA/viewform??embedded=true" />
+            <Presale url="https://docs.google.com/forms/d/e/1FAIpQLScFUQr-7t-rXS-8yk6oMD85iivtjxh9ku16_YTIWEtro6KbjA/viewform?embedded=true" />
           }
         />
         {/* <Route path="/kirstie" element={<Presale />} /> */}
