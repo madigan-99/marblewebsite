@@ -9,7 +9,31 @@ function App() {
     <div className="App">
       <Routes>
         <Route path="/" index element={<Main />} />
-        <Route path="/presale" element={<Presale />} />
+        <Route
+          path="/presale"
+          element={
+            <Presale url="https://docs.google.com/forms/d/e/1FAIpQLSfauvMgGLDfaNw-e-g8tdidce1ag88NbxWwoCevRD88Nbknzw/viewform?embedded=true" />
+          }
+        />
+        <Route
+          path="/feedback"
+          element={
+            <Presale url="https://docs.google.com/forms/d/e/1FAIpQLSfWG0egJaNv0Z1MH7O7tkKkkn0AZ0OcoYD4vU83tBmEJGyTpQ/viewform?usp=sf_link" />
+          }
+        />
+        <Route
+          path="/makenna"
+          element={
+            <Presale url="https://docs.google.com/forms/d/e/1FAIpQLSess1NkuQJV05UXVGhiSw3fFhib55t4EPqeJK21uTpx9tvdow/viewform?usp=sf_link" />
+          }
+        />
+        <Route
+          path="/monmon-eats"
+          element={
+            <Presale url="https://docs.google.com/forms/d/e/1FAIpQLScFUQr-7t-rXS-8yk6oMD85iivtjxh9ku16_YTIWEtro6KbjA/viewform?usp=sf_link" />
+          }
+        />
+        {/* <Route path="/kirstie" element={<Presale />} /> */}
         <Route path="*" element={<Main />} />
       </Routes>
     </div>
@@ -54,7 +78,7 @@ function Main() {
   );
 }
 
-function Presale() {
+function Presale(props) {
   return (
     <div className="google-form">
       <Link to="/" className="nav-back">
@@ -62,7 +86,7 @@ function Presale() {
       </Link>
       <iframe
         className="order"
-        src="https://docs.google.com/forms/d/e/1FAIpQLSfauvMgGLDfaNw-e-g8tdidce1ag88NbxWwoCevRD88Nbknzw/viewform?embedded=true"
+        src={props.url}
         frameBorder="0"
         marginHeight="10"
         marginWidth="10"
