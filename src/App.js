@@ -22,7 +22,7 @@ function App() {
           }
         />
         <Route
-          path="/makenna"
+          path="/seattlegrub"
           element={
             <Presale url="https://docs.google.com/forms/d/e/1FAIpQLSess1NkuQJV05UXVGhiSw3fFhib55t4EPqeJK21uTpx9tvdow/viewform?embedded=true" />
           }
