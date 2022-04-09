@@ -33,6 +33,12 @@ function App() {
             <Presale url="https://docs.google.com/forms/d/e/1FAIpQLScFUQr-7t-rXS-8yk6oMD85iivtjxh9ku16_YTIWEtro6KbjA/viewform?embedded=true" />
           }
         />
+        <Route
+          path="/adventureswithgi"
+          element={
+            <Presale url="https://docs.google.com/forms/d/e/1FAIpQLSdhAEwAVmFf-C-Vpzrb5LIyetr6Gl8qhvn87q-4rKI3Zz4-EA/viewform?embedded=true" />
+          }
+        />
         {/* <Route path="/kirstie" element={<Presale />} /> */}
         <Route path="*" element={<Main />} />
       </Routes>
@@ -71,7 +77,7 @@ function Main() {
       </div>
       <div className="full-width">
         <Link to="/presale">
-          <h3> order for the week of 04/04</h3>
+          <h3> order today</h3>
         </Link>
       </div>
     </>
