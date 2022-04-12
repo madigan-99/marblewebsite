@@ -45,6 +45,13 @@ function App() {
             <Presale url="https://docs.google.com/forms/d/e/1FAIpQLSfU8yR_u32Ah5rkqjp2k6xf-iZHrlkiKAZjuaiQ09l-uugPmg/viewform?embedded=true" />
           }
         />
+
+        <Route
+          path="/finnhill"
+          element={
+            <Presale url="https://docs.google.com/forms/d/e/1FAIpQLScVUSxAoC3JY2I5iHpx4KdJr3UidGzPYstK2Er0czvMFf7HOA/viewform?embedded=true" />
+          }
+        />
         {/* <Route path="/kirstie" element={<Presale />} /> */}
         <Route path="*" element={<Main />} />
       </Routes>
