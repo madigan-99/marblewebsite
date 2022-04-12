@@ -39,6 +39,12 @@ function App() {
             <Presale url="https://docs.google.com/forms/d/e/1FAIpQLSdhAEwAVmFf-C-Vpzrb5LIyetr6Gl8qhvn87q-4rKI3Zz4-EA/viewform?embedded=true" />
           }
         />
+        <Route
+          path="/toriimorwinery"
+          element={
+            <Presale url="https://docs.google.com/forms/d/e/1FAIpQLSfU8yR_u32Ah5rkqjp2k6xf-iZHrlkiKAZjuaiQ09l-uugPmg/viewform?embedded=true" />
+          }
+        />
         {/* <Route path="/kirstie" element={<Presale />} /> */}
         <Route path="*" element={<Main />} />
       </Routes>
