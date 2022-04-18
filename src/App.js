@@ -82,9 +82,7 @@ function Main() {
             <a href="mailto:info@marblechocolates.com">email.</a>
           </h3>
           <h3>
-            <a href="http://feedback.marblechocolates.com" target="new">
-              leave a review.
-            </a>
+            <Link to="/feedback">leave a review.</Link>
           </h3>
         </div>
       </div>
