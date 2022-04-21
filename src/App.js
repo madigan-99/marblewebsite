@@ -52,6 +52,17 @@ function App() {
             <Presale url="https://docs.google.com/forms/d/e/1FAIpQLScVUSxAoC3JY2I5iHpx4KdJr3UidGzPYstK2Er0czvMFf7HOA/viewform?embedded=true" />
           }
         />
+
+        <Route
+          path="/eleven"
+          element={
+            <Presale url="https://docs.google.com/forms/d/e/1FAIpQLSf74FV4ASs4GL6kZicaK8ou097FM5MRjLaFSIXiyV1GM1Vq4A/viewform?embedded=true" />
+          }
+        />
+        <Route
+          path="/test"
+          element={<Navigate to="https://www.google.com" replace={true} />}
+        ></Route>
         {/* <Route path="/kirstie" element={<Presale />} /> */}
         <Route path="*" element={<Main />} />
       </Routes>
