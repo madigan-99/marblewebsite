@@ -16,6 +16,12 @@ function App() {
           }
         />
         <Route
+          path="/order"
+          element={
+            <Presale url="https://docs.google.com/forms/d/e/1FAIpQLSfauvMgGLDfaNw-e-g8tdidce1ag88NbxWwoCevRD88Nbknzw/viewform?embedded=true" />
+          }
+        />
+        <Route
           path="/feedback"
           element={
             <Presale url="https://docs.google.com/forms/d/e/1FAIpQLSfWG0egJaNv0Z1MH7O7tkKkkn0AZ0OcoYD4vU83tBmEJGyTpQ/viewform?embedded=true" />
@@ -60,6 +66,13 @@ function App() {
           }
         />
 
+        <Route
+          path="/elevenwinery"
+          element={
+            <Presale url="https://docs.google.com/forms/d/e/1FAIpQLSf74FV4ASs4GL6kZicaK8ou097FM5MRjLaFSIXiyV1GM1Vq4A/viewform?embedded=true" />
+          }
+        />
+
         {/* <Route path="/kirstie" element={<Presale />} /> */}
         <Route path="*" element={<Main />} />
       </Routes>
@@ -95,7 +108,7 @@ function Main() {
         </div>
       </div>
       <div className="full-width">
-        <Link to="/presale">
+        <Link to="/order">
           <h3> order today</h3>
         </Link>
       </div>
