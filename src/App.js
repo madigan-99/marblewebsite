@@ -72,6 +72,12 @@ function App() {
             <Presale url="https://docs.google.com/forms/d/e/1FAIpQLSf74FV4ASs4GL6kZicaK8ou097FM5MRjLaFSIXiyV1GM1Vq4A/viewform?embedded=true" />
           }
         />
+        <Route
+          path="/aapi"
+          element={
+            <Presale url="https://docs.google.com/forms/d/e/1FAIpQLSfr0oydOblVYecXufAO91Eth3LfTUgXVJodmas4aUAREkcwMA/viewform?embedded=true" />
+          }
+        />
 
         {/* <Route path="/kirstie" element={<Presale />} /> */}
         <Route path="*" element={<Main />} />
